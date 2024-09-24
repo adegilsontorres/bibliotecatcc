@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+--cor-padrao: #fa7070;
+--cor-base: #fefdef;
+--cor-contraste: #A1C398;
+--cor-contraste-leve: #C6EBC5;
+--texto-leve: #a5a5a5;
+--fonte-padrao: "Ubuntu", sans-serif;
+--padding-container: 0 4rem
+
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: #f5f5f5;
+}
+
+

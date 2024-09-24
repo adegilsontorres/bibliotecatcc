@@ -1,0 +1,38 @@
+.container__botao{
+    display: none;
+}
+
+
+/* Criando o clique do menu */
+.cabecalho__menu-aberto {
+    display: none;
+    position: absolute;
+    padding: 1rem 6rem;
+    top: 5rem;
+    left: 0;
+    height: 50vh;
+    width: 75vw;
+    background-color: var(--cor-base);
+    border-bottom: 1px solid var(--cor-contraste);
+}
+
+
+.cabecalho__menu-aberto__lista {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#titulo-categoria {
+    font-weight: 600;
+}
+
+.cabecalho__menu-aberto__lista__item {
+    margin-bottom: .5rem;
+}
+
+.cabecalho__menu-aberto__lista__item__link {
+    color: var(--cor-padrao);
+    margin-bottom: 1.5rem;
+}
